@@ -31,23 +31,22 @@ A simple blog application built with **Node.js**, **Express.js**, **EJS**, and *
 ---
 
 ## 📁 Project Structure
-
+```
 blog-app/
 │
 ├── public/
-│ └── css/
-│ └── style.css # Custom styling (in addition to Bootstrap)
+│   └── css/
+│       └── style.css  # Custom styling (in addition to Bootstrap)
 │
 ├── views/
-│ ├── home.ejs # Homepage template
-│ ├── compose.ejs # Post creation form
-│ ├── edit.ejs # Post editing form
+│   ├── index.ejs      # Homepage template
+│   ├── new.ejs        # Post creation form
+│   ├── edit.ejs       # Post editing form
 │
-├── index.js # Entry point and Express server
-├── package.json # Project metadata and dependencies
-└── .gitignore # Ignoring node_modules
-
-
+├── index.js           # Entry point and Express server
+├── package.json       # Project metadata and dependencies
+└── .gitignore         # Ignoring node_modules
+```
 ---
 
 ## 🖥️ Getting Started (Local Setup)
