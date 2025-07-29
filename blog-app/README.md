@@ -7,7 +7,7 @@ A simple blog application built with **Node.js**, **Express.js**, **EJS**, and *
 
 ## 🌐 Live Demo
 
-🔗 [Deployed on Render](https://your-render-link.com)  
+🔗 Deployed on Render - (https://web-blog-app-fygy.onrender.com)  
 
 ---
 
@@ -53,19 +53,49 @@ blog-app/
 ## 🖥️ Getting Started (Local Setup)
 
 1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SAnushree2004/Capstone-Projects.git
+   cd Capstone-Projects/blog-app
 
-```bash
-git clone https://github.com/SAnushree2004/Capstone-Projects.git
-cd Capstone-Projects/blog-app
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Install dependencies
+3. **Run the application**
+   ```bash
+   npm start
+   ```
 
-'''bash
+4. **Open your browser and visit:** http://localhost:3000
 
-npm install
-Run the application
+## ⚙️ Deployment Notes
+- Deployed on Render
+- `"start"` script defined in `package.json`
+- Render auto-installs dependencies and starts the server
+- Root directory for deployment: `blog-app`
 
-bash
+## ✅ Deliverables
+- Node + Express web app
+- At least one EJS template for rendering
+- At least one CSS file (custom or Bootstrap)
+- Bootstrap-based responsive layout
 
-npm start
-Open your browser and visit: http://localhost:3000
+## 📌 Limitations
+- ❌ Posts are not stored permanently (no database used)
+- 🧩 Easily extendable with MongoDB or other databases
+
+## 📣 Future Improvements
+
+This blog application is a solid foundation for a full-featured blogging platform. Potential enhancements include:
+
+- 🔐 **User authentication and authorization**
+- 🗃️ **Persistent storage** using MongoDB or another database
+- 🖼️ **Image uploads** for posts
+- 🔍 **Search and filter** functionality
+- 🧾 **Pagination** for posts
+
+---
+
+💡 *Contributions, suggestions, and feedback are welcome! Feel free to fork the repo and submit a pull request.*
+
