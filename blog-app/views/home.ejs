@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog website</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- BASIC WORKING -->
+
+    <!-- <h1>Hii welcome to my blog!!!</h1> -->
+    <!-- <h1>Blog Home</h1>
+    <a href="/compose">+ New Post</a>
+    <% posts.forEach(post => { %>
+    <div>
+      <ul>
+        <li>
+          <h2><%= post.title %></h2>
+          <p><%= post.content %></p>
+          <a href="/edit/<%= post.id %>">Edit</a>
+          <a href="/delete/<%= post.id %>">Delete</a>
+        </li>
+      </ul>
+    </div>
+    <% }); %> -->
+
+    <!-- WITH BOOTSTRAP -->
+    <div class="container mt-4">
+      <h1>Welcome to my blog home!</h1>
+      <a href="/compose" class="btn btn-primary mb-3">+ New Post</a>
+      <% posts.forEach(post => { %>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h2 class="card-title"><%= post.title %></h2>
+          <p class="card-text"><%= post.content %></p>
+          <a href="/edit/<%= post.id %>" class="btn btn-sm btn-warning">Edit</a>
+          <a href="/delete/<%= post.id %>" class="btn btn-sm btn-danger"
+            >Delete</a
+          >
+        </div>
+      </div>
+      <% }); %>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
