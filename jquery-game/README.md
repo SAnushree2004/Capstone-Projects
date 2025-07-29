@@ -3,6 +3,14 @@
 Welcome to my first jQuery project – **Simon Game**!  
 It's a fun memory-based color sequence game that tests how well you can remember and repeat an ever-growing pattern.
 
+---
+
+## 🔗 Live Demo
+
+[Click here to play the game](https://sanushree2004.github.io/jQuery-Simon-game/) 
+
+---
+
 ## 🚀 About the Project
 
 This game was built using:
@@ -14,6 +22,8 @@ This game was built using:
 
 Through this project, I learned about DOM manipulation, animations, and event handling using jQuery.
 
+---
+
 ## 🕹️ How to Play
 
 1. Press any key to start the game.
@@ -21,6 +31,8 @@ Through this project, I learned about DOM manipulation, animations, and event ha
 3. Each round adds a new color to the sequence.
 4. If you make a mistake, the game is over and you can restart!
 
-## 🔗 Live Demo
+---
 
-[Click here to play the game](https://sanushree2004.github.io/jQuery-Simon-game/) 
+## 🎮 Game Over!
+
+Thanks for playing! This was a fun project to build, and I hope you enjoyed the challenge. Stay tuned for more! 🚀
