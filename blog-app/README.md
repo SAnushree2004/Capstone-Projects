@@ -14,6 +14,7 @@ A simple blog application built with **Node.js**, **Express.js**, **EJS**, and *
 ## 🚀 Features
 
 - ✍️ **Post Creation** – Users can create new blog posts via a form.
+- 🔐 **Unique Post Identification** – Prevents confusion from duplicate titles by assigning each post a unique ID using the uuid package.
 - 📄 **Post Viewing** – All posts are displayed on the homepage.
 - 🛠️ **Post Editing & Deletion** – Users can update or delete existing posts.
 - 🎨 **Responsive Styling with Bootstrap** – Clean, mobile-friendly layout using Bootstrap components and classes.
